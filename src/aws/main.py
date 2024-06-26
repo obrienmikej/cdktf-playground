@@ -1,4 +1,4 @@
-\#!/usr/bin/env python
+#!/usr/bin/env python
 from constructs import Construct
 from cdktf import App, NamedRemoteWorkspace, TerraformStack, TerraformOutput, RemoteBackend
 from cdktf_cdktf_provider_aws.provider import AwsProvider
