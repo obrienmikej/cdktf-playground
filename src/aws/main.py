@@ -14,7 +14,7 @@ class MyStack(TerraformStack):
         instance = Instance(self, "compute",
                             ami="ami-01456a894f71116f2",
                             instance_type="t2.micro",
-                            tags={"Name": "CDKTF-Demo"},
+                            tags={"Name": "CDKTF-Demo-tag"},
                             )
 
         TerraformOutput(self, "public_ip",
